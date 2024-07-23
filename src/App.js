@@ -83,9 +83,9 @@ const App = () => {
   const handleValueChange = (value) => {
     setTimeLeft(null);
     setIsPlaying(false);
-    const newAudioFile = `${process.env.PUBLIC_URL}/audio/${value}/audio.m4a`;
+    const newAudioFile = `https://labs.noshado.ws/sound-machine-storage/${value}/audio.mp3`;
     setAudioFile(newAudioFile);
-    const newManifestFile = `${process.env.PUBLIC_URL}/audio/${value}/manifest.json`;
+    const newManifestFile = `https://labs.noshado.ws/sound-machine-storage/${value}/manifest.json`;
     setManifestFile(newManifestFile);
     setIsPlaying(true);
   };
