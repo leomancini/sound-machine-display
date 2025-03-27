@@ -24,7 +24,11 @@ const Input = styled.input`
 `;
 
 const WaveformVisualizerContainer = styled.div`
-  margin-top: 4rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
 `;
 
 const InfoDisplay = styled.div`
